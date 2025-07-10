@@ -1,6 +1,6 @@
-# Starling
+# NHG
 
-In this repository, we share the implementations and experiments of our work *Starling: An I/O-Efficient Disk-Resident Graph Index Framework for High-Dimensional Vector Similarity Search on Data Segment* ([arXiv](https://arxiv.org/abs/2401.02116)).
+In this repository, we share the implementations and experiments of our work *NHG: An I/O-Efficient Disk-Resident Graph Index Framework for High-Dimensional Vector Similarity Search on Data Segment* ([arXiv](https://arxiv.org/abs/2401.02116)).
 
 It contains the following features:
 

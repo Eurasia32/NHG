@@ -1,9 +1,9 @@
 #!/bin/sh
 
 float_dataset() {
-  BASE_PATH=../tests_data/rand_float_10D_10K_norm1.0.bin
-  QUERY_FILE=../tests_data/rand_float_10D_10K_norm1.0.bin
-  GT_FILE=../tests_data/l2_rand_float_10D_10K_norm1.0_self_gt10
+  BASE_PATH=../dataset/rand_float_10D_10K_norm1.0.bin
+  QUERY_FILE=../dataset/rand_float_10D_10K_norm1.0.bin
+  GT_FILE=../dataset/l2_rand_float_10D_10K_norm1.0_self_gt10
   PREFIX=float_10k
   DATA_TYPE=float
   DIST_FN=l2
@@ -14,9 +14,9 @@ float_dataset() {
 }
 
 uint8_dataset() {
-  BASE_PATH=../tests_data/rand_uint8_10D_10K_norm50.0.bin
-  QUERY_FILE=../tests_data/rand_uint8_10D_10K_norm50.0.bin
-  GT_FILE=../tests_data/l2_rand_uint8_10D_10K_norm50.0_self_gt10
+  BASE_PATH=../dataset/rand_uint8_10D_10K_norm50.0.bin
+  QUERY_FILE=../dataset/rand_uint8_10D_10K_norm50.0.bin
+  GT_FILE=../dataset/l2_rand_uint8_10D_10K_norm50.0_self_gt10
   PREFIX=int_10k
   DATA_TYPE=uint8
   DIST_FN=l2
